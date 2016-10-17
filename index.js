@@ -5,7 +5,7 @@
  * @file            index.js
  * @author          Mickael Valmier <mickael.valmier@gmail.com>
  * @last-edited     17-10-2016
- * @description     Queuing synchronized access to a shared ressource
+ * @description     Queuing synchronized access to a shared resource
  *****************************************************************************/
 'use strict';
 
@@ -50,7 +50,7 @@ const Flowrida = {
 
 
     /**
-     * Treat a deffered process and op from stack
+     * Treat a deffered process and pop out from stack
      * 
      * @param {Deferred}    deferred    Deferred process to treat
      * @param {Object}      props       Properties defined for this process
