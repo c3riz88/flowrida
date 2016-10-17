@@ -6,4 +6,8 @@ Keep the flow with your shared resources :
 
 ```javascript
 const Flowrida = require('flowrida');
+Flowrida
+    .stack('foo')
+    .stack('baz')
+    .stack('bar');
 ```
