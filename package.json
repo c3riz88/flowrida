@@ -1,0 +1,22 @@
+{
+  "name": "sync-queue",
+  "description": "Simple feature who implements synchronized queue",
+  "main": "./index.js",
+  "version": "0.0.1",
+  "url": "https://github.com/mickaelvalmier/flowrida",
+  "mail": "mickael.valmier@gmail.com",
+  "author ": "Mickael Valmier",
+  "contributors": [
+    {
+      "name": "Mickael Valmier",
+      "email": "mickael.valmier@gmail.com"
+    }
+  ],
+  "dependencies": {
+      "q": "1.4.1"
+  },
+  "devDependencies": {
+  },
+  "prefereGlobal": false,
+  "private": true
+}
