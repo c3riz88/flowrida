@@ -13,9 +13,10 @@ const
     Q           = require('q'),
     bootstrap   = Q.defer();
 
+// Resolve bootstrap is required to engage the first process
 bootstrap.resolve();
 
-const Sync = {
+const Flowrida = {
     // {Array<Deffered>}    Deferred processes currently stacked
     stacked : [bootstrap],
     // {Integer}            Number of processes added to stack
@@ -67,4 +68,4 @@ const Sync = {
     }
 };
 
-module.exports = Sync;
+module.exports = Flowrida;

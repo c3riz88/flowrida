@@ -1,6 +1,6 @@
 {
-  "name": "sync-queue",
-  "description": "Simple feature who implements synchronized queue",
+  "name": "flowrida",
+  "description": "Keep the flow with your shared resources",
   "main": "./index.js",
   "version": "0.0.1",
   "url": "https://github.com/mickaelvalmier/flowrida",
