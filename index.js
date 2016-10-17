@@ -28,7 +28,7 @@ const Flowrida = {
      * 
      * @params  {Object}    props   Properties defined for this process
      * 
-     * @result  {Promise}   Promise resolved or rejected once process treated
+     * @result  {Flowrida}  Current instance of module for chaining functions
      */
     stack(props) {
         // {Integer}    Index assigned to the new process
@@ -45,7 +45,7 @@ const Flowrida = {
         // Wait treatment neighbor before launch new process
         Q.when(neighbour.promise, _ => this.process(incomer, props, index));
 
-        return incomer.promise;
+        return this;
     },
 
 
